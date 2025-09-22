@@ -6,7 +6,7 @@
 24	1230	7802292618929932	CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj	5565823ba3847e7a
 57	1130	7802292618860122	CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj	54212cc23525cbe9
 272	1272	7802292619979125	CMakeFiles/OLED_test.dir/Core/Src/syscalls.c.obj	d0d029fab776cc86
-2732	2956	7802292637755457	OLED_test.elf	1d4b1767c3f7552
+362	590	7802331322421867	OLED_test.elf	1d4b1767c3f7552
 516	1727	7802292624531188	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj	6e2337d503ce2f43
 1183	2321	7802292630809964	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj	d7da9ec228631dcf
 631	1831	7802292625289361	cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj	b146de01488fbd8f
@@ -26,7 +26,7 @@
 3	1450	7802292620328192	CMakeFiles/OLED_test.dir/Core/Src/main.c.obj	2869caf40eaaf85c
 91	1317	7802292619989096	CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj	fad66d88e4b4b8d9
 135	1376	7802292620128724	CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj	946cd4519b7d7f47
-447	1632	7802292623783144	CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj	8a3c38c1af6884be
+3	361	7802331320209847	CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj	8a3c38c1af6884be
 2	83	0	CMakeFiles/clean.additional	2725b48c7bb57f60
 83	103	0	clean	fabec00fc0b22f73
 48	1011	7802291729232623	CMakeFiles/OLED_test.dir/Core/Src/freertos.c.obj	8ab74ddc5b9c8629
@@ -39,7 +39,4 @@
 2446	3036	7802291750312741	cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj	1b72a9e3066fc196
 2291	3042	7802291750380100	cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj	b9ea0dff7c11c0c9
 2394	3207	7802291752020335	cmake/stm32cubemx/CMakeFiles/FreeRTOS.dir/__/__/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj	3c45a458df0776a0
-3	329	7802329292631772	build.ninja	868374a80a4f85d7
-4	380	7802331209942190	CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj	8a3c38c1af6884be
-3	361	7802331320209847	CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj	8a3c38c1af6884be
-362	590	7802331322421867	OLED_test.elf	1d4b1767c3f7552
+3	329	7802463093472163	build.ninja	868374a80a4f85d7
