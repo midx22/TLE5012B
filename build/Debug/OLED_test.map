@@ -239,12 +239,6 @@ Discarded input sections
                 0x00000000       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.HAL_SPI_MspDeInit
                 0x00000000       0x12 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.HAL_SPI_Transmit
-                0x00000000      0x288 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.HAL_SPI_Receive
-                0x00000000      0x232 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.HAL_SPI_TransmitReceive
-                0x00000000      0x352 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.HAL_SPI_Transmit_IT
                 0x00000000      0x108 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.HAL_SPI_Receive_IT
@@ -325,12 +319,6 @@ Discarded input sections
                 0x00000000       0x46 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.SPI_TxISR_16BIT
                 0x00000000       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.SPI_WaitFlagStateUntilTimeout
-                0x00000000      0x110 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.SPI_EndRxTransaction
-                0x00000000       0xa4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .text.SPI_EndRxTxTransaction
-                0x00000000       0x62 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.SPI_CloseRxTx_ISR
                 0x00000000       0xe8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .text.SPI_CloseRx_ISR
@@ -720,6 +708,8 @@ Discarded input sections
  .bss           0x00000000        0x0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_DeInit
                 0x00000000      0x178 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .text.HAL_GPIO_ReadPin
+                0x00000000       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_TogglePin
                 0x00000000       0x32 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .text.HAL_GPIO_LockPin
@@ -1745,6 +1735,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_macro   0x00000000      0x217 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -1819,7 +1810,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_macro   0x00000000      0x217 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/sysmem.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/sysmem.c.obj
  .group         0x00000000        0xc CMakeFiles/OLED_test.dir/Core/Src/sysmem.c.obj
@@ -2172,7 +2163,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x140 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
  .debug_macro   0x00000000      0x217 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
  .debug_macro   0x00000000       0x83 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
  .text          0x00000000      0x168 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .data          0x00000000        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .bss           0x00000000        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
@@ -2648,7 +2639,7 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
                 0x08000000                g_pfnVectors
                 0x0800010c                        . = ALIGN (0x4)
 
-.text           0x0800010c     0x2008
+.text           0x0800010c     0x2858
                 0x0800010c                        . = ALIGN (0x4)
  *(.text)
  .text          0x0800010c       0x40 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -2681,308 +2672,313 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
  .text.HAL_SPI_Init
                 0x08000654      0x108 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
                 0x08000654                HAL_SPI_Init
+ .text.HAL_SPI_Transmit
+                0x0800075c      0x288 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x0800075c                HAL_SPI_Transmit
+ .text.HAL_SPI_Receive
+                0x080009e4      0x232 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x080009e4                HAL_SPI_Receive
+ .text.HAL_SPI_TransmitReceive
+                0x08000c16      0x352 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08000c16                HAL_SPI_TransmitReceive
+ .text.SPI_WaitFlagStateUntilTimeout
+                0x08000f68      0x110 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .text.SPI_EndRxTransaction
+                0x08001078       0xa4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .text.SPI_EndRxTxTransaction
+                0x0800111c       0x62 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ *fill*         0x0800117e        0x2 
  .text.HAL_Init
-                0x0800075c       0x2c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800075c                HAL_Init
+                0x08001180       0x2c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001180                HAL_Init
  .text.HAL_InitTick
-                0x08000788       0x60 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000788                HAL_InitTick
+                0x080011ac       0x60 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080011ac                HAL_InitTick
  .text.HAL_IncTick
-                0x080007e8       0x24 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080007e8                HAL_IncTick
+                0x0800120c       0x24 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0800120c                HAL_IncTick
  .text.HAL_GetTick
-                0x0800080c       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0800080c                HAL_GetTick
+                0x08001230       0x14 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001230                HAL_GetTick
  .text.HAL_Delay
-                0x08000820       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000820                HAL_Delay
+                0x08001244       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001244                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x08000868      0x504 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000868                HAL_RCC_OscConfig
+                0x0800128c      0x504 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0800128c                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08000d6c      0x1d4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000d6c                HAL_RCC_ClockConfig
+                0x08001790      0x1d4 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001790                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08000f40       0xa8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000f40                HAL_RCC_GetSysClockFreq
+                0x08001964       0xa8 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001964                HAL_RCC_GetSysClockFreq
  .text.RCC_Delay
-                0x08000fe8       0x3c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001a0c       0x3c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_GPIO_Init
-                0x08001024      0x308 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08001024                HAL_GPIO_Init
- .text.HAL_GPIO_ReadPin
-                0x0800132c       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0800132c                HAL_GPIO_ReadPin
+                0x08001a48      0x308 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001a48                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0800135a       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0800135a                HAL_GPIO_WritePin
- *fill*         0x0800138a        0x2 
+                0x08001d50       0x30 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001d50                HAL_GPIO_WritePin
  .text.__NVIC_SetPriorityGrouping
-                0x0800138c       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001d80       0x48 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x080013d4       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001dc8       0x1c cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x080013f0       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001de4       0x54 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08001444       0x64 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001e38       0x64 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x080014a8       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001e9c       0x44 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080014ec       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080014ec                HAL_NVIC_SetPriorityGrouping
+                0x08001ee0       0x16 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001ee0                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08001502       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08001502                HAL_NVIC_SetPriority
+                0x08001ef6       0x38 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001ef6                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0800153a       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800153a                HAL_SYSTICK_Config
- *fill*         0x08001552        0x2 
- .text.main     0x08001554       0x64 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
-                0x08001554                main
+                0x08001f2e       0x18 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001f2e                HAL_SYSTICK_Config
+ *fill*         0x08001f46        0x2 
+ .text.main     0x08001f48       0x64 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+                0x08001f48                main
  .text.SystemClock_Config
-                0x080015b8       0x8a CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
-                0x080015b8                SystemClock_Config
+                0x08001fac       0x8a CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+                0x08001fac                SystemClock_Config
  .text.Error_Handler
-                0x08001642        0xc CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
-                0x08001642                Error_Handler
- *fill*         0x0800164e        0x2 
+                0x08002036        0xc CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+                0x08002036                Error_Handler
+ *fill*         0x08002042        0x2 
  .text.MX_GPIO_Init
-                0x08001650       0xc0 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
-                0x08001650                MX_GPIO_Init
+                0x08002044       0xc0 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
+                0x08002044                MX_GPIO_Init
  .text.MX_SPI1_Init
-                0x08001710       0x70 CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
-                0x08001710                MX_SPI1_Init
+                0x08002104       0x70 CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
+                0x08002104                MX_SPI1_Init
  .text.HAL_SPI_MspInit
-                0x08001780       0x7c CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
-                0x08001780                HAL_SPI_MspInit
+                0x08002174       0x7c CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
+                0x08002174                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x080017fc        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x080017fc                NMI_Handler
+                0x080021f0        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080021f0                NMI_Handler
  .text.HardFault_Handler
-                0x08001804        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001804                HardFault_Handler
+                0x080021f8        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x080021f8                HardFault_Handler
  .text.MemManage_Handler
-                0x0800180c        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800180c                MemManage_Handler
+                0x08002200        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002200                MemManage_Handler
  .text.BusFault_Handler
-                0x08001814        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001814                BusFault_Handler
+                0x08002208        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002208                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800181c        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800181c                UsageFault_Handler
+                0x08002210        0x8 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002210                UsageFault_Handler
  .text.SVC_Handler
-                0x08001824        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001824                SVC_Handler
+                0x08002218        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002218                SVC_Handler
  .text.DebugMon_Handler
-                0x08001830        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001830                DebugMon_Handler
+                0x08002224        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002224                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800183c        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800183c                PendSV_Handler
+                0x08002230        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08002230                PendSV_Handler
  .text.SysTick_Handler
-                0x08001848        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08001848                SysTick_Handler
+                0x0800223c        0xc CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800223c                SysTick_Handler
  .text.HAL_MspInit
-                0x08001854       0x64 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08001854                HAL_MspInit
+                0x08002248       0x64 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08002248                HAL_MspInit
  .text.Reset_Handler
-                0x080018b8       0x48 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
-                0x080018b8                Reset_Handler
+                0x080022ac       0x48 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
+                0x080022ac                Reset_Handler
  .text.Default_Handler
-                0x08001900        0x2 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
-                0x08001900                RTC_Alarm_IRQHandler
-                0x08001900                EXTI2_IRQHandler
-                0x08001900                TIM1_CC_IRQHandler
-                0x08001900                PVD_IRQHandler
-                0x08001900                EXTI3_IRQHandler
-                0x08001900                EXTI0_IRQHandler
-                0x08001900                I2C2_EV_IRQHandler
-                0x08001900                ADC1_2_IRQHandler
-                0x08001900                SPI1_IRQHandler
-                0x08001900                TAMPER_IRQHandler
-                0x08001900                DMA1_Channel4_IRQHandler
-                0x08001900                USART3_IRQHandler
-                0x08001900                RTC_IRQHandler
-                0x08001900                DMA1_Channel7_IRQHandler
-                0x08001900                CAN1_RX1_IRQHandler
-                0x08001900                TIM4_IRQHandler
-                0x08001900                I2C1_EV_IRQHandler
-                0x08001900                DMA1_Channel6_IRQHandler
-                0x08001900                TIM3_IRQHandler
-                0x08001900                RCC_IRQHandler
-                0x08001900                TIM1_TRG_COM_IRQHandler
-                0x08001900                DMA1_Channel1_IRQHandler
-                0x08001900                Default_Handler
-                0x08001900                EXTI15_10_IRQHandler
-                0x08001900                EXTI9_5_IRQHandler
-                0x08001900                SPI2_IRQHandler
-                0x08001900                DMA1_Channel5_IRQHandler
-                0x08001900                EXTI4_IRQHandler
-                0x08001900                USB_LP_CAN1_RX0_IRQHandler
-                0x08001900                USB_HP_CAN1_TX_IRQHandler
-                0x08001900                DMA1_Channel3_IRQHandler
-                0x08001900                TIM1_UP_IRQHandler
-                0x08001900                WWDG_IRQHandler
-                0x08001900                TIM2_IRQHandler
-                0x08001900                TIM1_BRK_IRQHandler
-                0x08001900                EXTI1_IRQHandler
-                0x08001900                USART2_IRQHandler
-                0x08001900                I2C2_ER_IRQHandler
-                0x08001900                DMA1_Channel2_IRQHandler
-                0x08001900                CAN1_SCE_IRQHandler
-                0x08001900                FLASH_IRQHandler
-                0x08001900                USART1_IRQHandler
-                0x08001900                I2C1_ER_IRQHandler
-                0x08001900                USBWakeUp_IRQHandler
- *fill*         0x08001902        0x2 
+                0x080022f4        0x2 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
+                0x080022f4                RTC_Alarm_IRQHandler
+                0x080022f4                EXTI2_IRQHandler
+                0x080022f4                TIM1_CC_IRQHandler
+                0x080022f4                PVD_IRQHandler
+                0x080022f4                EXTI3_IRQHandler
+                0x080022f4                EXTI0_IRQHandler
+                0x080022f4                I2C2_EV_IRQHandler
+                0x080022f4                ADC1_2_IRQHandler
+                0x080022f4                SPI1_IRQHandler
+                0x080022f4                TAMPER_IRQHandler
+                0x080022f4                DMA1_Channel4_IRQHandler
+                0x080022f4                USART3_IRQHandler
+                0x080022f4                RTC_IRQHandler
+                0x080022f4                DMA1_Channel7_IRQHandler
+                0x080022f4                CAN1_RX1_IRQHandler
+                0x080022f4                TIM4_IRQHandler
+                0x080022f4                I2C1_EV_IRQHandler
+                0x080022f4                DMA1_Channel6_IRQHandler
+                0x080022f4                TIM3_IRQHandler
+                0x080022f4                RCC_IRQHandler
+                0x080022f4                TIM1_TRG_COM_IRQHandler
+                0x080022f4                DMA1_Channel1_IRQHandler
+                0x080022f4                Default_Handler
+                0x080022f4                EXTI15_10_IRQHandler
+                0x080022f4                EXTI9_5_IRQHandler
+                0x080022f4                SPI2_IRQHandler
+                0x080022f4                DMA1_Channel5_IRQHandler
+                0x080022f4                EXTI4_IRQHandler
+                0x080022f4                USB_LP_CAN1_RX0_IRQHandler
+                0x080022f4                USB_HP_CAN1_TX_IRQHandler
+                0x080022f4                DMA1_Channel3_IRQHandler
+                0x080022f4                TIM1_UP_IRQHandler
+                0x080022f4                WWDG_IRQHandler
+                0x080022f4                TIM2_IRQHandler
+                0x080022f4                TIM1_BRK_IRQHandler
+                0x080022f4                EXTI1_IRQHandler
+                0x080022f4                USART2_IRQHandler
+                0x080022f4                I2C2_ER_IRQHandler
+                0x080022f4                DMA1_Channel2_IRQHandler
+                0x080022f4                CAN1_SCE_IRQHandler
+                0x080022f4                FLASH_IRQHandler
+                0x080022f4                USART1_IRQHandler
+                0x080022f4                I2C1_ER_IRQHandler
+                0x080022f4                USBWakeUp_IRQHandler
+ *fill*         0x080022f6        0x2 
  .text.OLED_I2C_Init
-                0x08001904       0x64 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001904                OLED_I2C_Init
+                0x080022f8       0x64 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080022f8                OLED_I2C_Init
  .text.OLED_I2C_Start
-                0x08001968       0x3c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001968                OLED_I2C_Start
+                0x0800235c       0x3c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x0800235c                OLED_I2C_Start
  .text.OLED_I2C_Stop
-                0x080019a4       0x30 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x080019a4                OLED_I2C_Stop
+                0x08002398       0x30 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002398                OLED_I2C_Stop
  .text.OLED_I2C_SendByte
-                0x080019d4       0x7c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x080019d4                OLED_I2C_SendByte
+                0x080023c8       0x7c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080023c8                OLED_I2C_SendByte
  .text.OLED_WriteCommand
-                0x08001a50       0x2e CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001a50                OLED_WriteCommand
+                0x08002444       0x2e CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002444                OLED_WriteCommand
  .text.OLED_WriteData
-                0x08001a7e       0x2e CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001a7e                OLED_WriteData
+                0x08002472       0x2e CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002472                OLED_WriteData
  .text.OLED_SetCursor
-                0x08001aac       0x46 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001aac                OLED_SetCursor
+                0x080024a0       0x46 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080024a0                OLED_SetCursor
  .text.OLED_Clear
-                0x08001af2       0x46 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001af2                OLED_Clear
+                0x080024e6       0x46 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080024e6                OLED_Clear
  .text.OLED_ShowChar
-                0x08001b38       0xb0 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001b38                OLED_ShowChar
+                0x0800252c       0xb0 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x0800252c                OLED_ShowChar
  .text.OLED_ShowString
-                0x08001be8       0x4a CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001be8                OLED_ShowString
+                0x080025dc       0x4a CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080025dc                OLED_ShowString
  .text.OLED_Pow
-                0x08001c32       0x30 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001c32                OLED_Pow
- *fill*         0x08001c62        0x2 
+                0x08002626       0x30 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002626                OLED_Pow
+ *fill*         0x08002656        0x2 
  .text.OLED_ShowNum
-                0x08001c64       0x7c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001c64                OLED_ShowNum
+                0x08002658       0x7c CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002658                OLED_ShowNum
  .text.OLED_Init
-                0x08001ce0       0xc8 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08001ce0                OLED_Init
+                0x080026d4       0xc8 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x080026d4                OLED_Init
  .text.TLE5012B_Init
-                0x08001da8       0xb4 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
-                0x08001da8                TLE5012B_Init
- .text.SoftSPI_SendByte
-                0x08001e5c       0xb0 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
-                0x08001e5c                SoftSPI_SendByte
- .text.SoftSPI_ReceiveByte
-                0x08001f0c       0xac CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
-                0x08001f0c                SoftSPI_ReceiveByte
+                0x0800279c       0x68 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+                0x0800279c                TLE5012B_Init
  .text.TLE5012B_ReadRegister
-                0x08001fb8       0x94 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
-                0x08001fb8                TLE5012B_ReadRegister
+                0x08002804       0x98 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+                0x08002804                TLE5012B_ReadRegister
  .text.TLE5012B_ReadAngle
-                0x0800204c       0x58 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
-                0x0800204c                TLE5012B_ReadAngle
- .text.memset   0x080020a4       0x10 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
-                0x080020a4                memset
+                0x0800289c       0x58 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+                0x0800289c                TLE5012B_ReadAngle
+ .text.memset   0x080028f4       0x10 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x080028f4                memset
  .text.__libc_init_array
-                0x080020b4       0x48 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
-                0x080020b4                __libc_init_array
+                0x08002904       0x48 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x08002904                __libc_init_array
  *(.glue_7)
- .glue_7        0x080020fc        0x0 linker stubs
+ .glue_7        0x0800294c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080020fc        0x0 linker stubs
+ .glue_7t       0x0800294c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080020fc        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0800294c        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x080020fc        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x080020fc                _init
- .init          0x08002100        0x8 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0800294c        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x0800294c                _init
+ .init          0x08002950        0x8 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002108        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
-                0x08002108                _fini
- .fini          0x0800210c        0x8 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
-                0x08002114                        . = ALIGN (0x4)
-                0x08002114                        _etext = .
+ .fini          0x08002958        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crti.o
+                0x08002958                _fini
+ .fini          0x0800295c        0x8 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtn.o
+                0x08002964                        . = ALIGN (0x4)
+                0x08002964                        _etext = .
 
-.vfp11_veneer   0x08002114        0x0
- .vfp11_veneer  0x08002114        0x0 linker stubs
+.vfp11_veneer   0x08002964        0x0
+ .vfp11_veneer  0x08002964        0x0 linker stubs
 
-.v4_bx          0x08002114        0x0
- .v4_bx         0x08002114        0x0 linker stubs
+.v4_bx          0x08002964        0x0
+ .v4_bx         0x08002964        0x0 linker stubs
 
-.iplt           0x08002114        0x0
- .iplt          0x08002114        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08002964        0x0
+ .iplt          0x08002964        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08002114      0x63c
-                0x08002114                        . = ALIGN (0x4)
+.rodata         0x08002964      0x61c
+                0x08002964                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08002114        0x7 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
- *fill*         0x0800211b        0x1 
- .rodata        0x0800211c       0x20 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .rodata        0x08002964        0x7 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
  *(.rodata*)
+ *fill*         0x0800296b        0x1 
  .rodata.AHBPrescTable
-                0x0800213c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
-                0x0800213c                AHBPrescTable
+                0x0800296c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+                0x0800296c                AHBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x0800214c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0800297c       0x10 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x0800215c        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0800215e        0x2 
+                0x0800298c        0x2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x0800298e        0x2 
  .rodata.OLED_F8x16
-                0x08002160      0x5f0 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
-                0x08002160                OLED_F8x16
-                0x08002750                        . = ALIGN (0x4)
+                0x08002990      0x5f0 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+                0x08002990                OLED_F8x16
+                0x08002f80                        . = ALIGN (0x4)
 
-.ARM.extab      0x08002750        0x0
-                0x08002750                        . = ALIGN (0x4)
+.ARM.extab      0x08002f80        0x0
+                0x08002f80                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08002750                        . = ALIGN (0x4)
+                0x08002f80                        . = ALIGN (0x4)
 
-.ARM            0x08002750        0x0
-                0x08002750                        . = ALIGN (0x4)
-                0x08002750                        __exidx_start = .
+.ARM            0x08002f80        0x0
+                0x08002f80                        . = ALIGN (0x4)
+                0x08002f80                        __exidx_start = .
  *(.ARM.exidx*)
-                0x08002750                        __exidx_end = .
-                0x08002750                        . = ALIGN (0x4)
+                0x08002f80                        __exidx_end = .
+                0x08002f80                        . = ALIGN (0x4)
 
-.preinit_array  0x08002750        0x0
-                0x08002750                        . = ALIGN (0x4)
-                0x08002750                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002f80        0x0
+                0x08002f80                        . = ALIGN (0x4)
+                0x08002f80                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002750                        PROVIDE (__preinit_array_end = .)
-                0x08002750                        . = ALIGN (0x4)
+                0x08002f80                        PROVIDE (__preinit_array_end = .)
+                0x08002f80                        . = ALIGN (0x4)
 
-.init_array     0x08002750        0x4
-                0x08002750                        . = ALIGN (0x4)
-                0x08002750                        PROVIDE (__init_array_start = .)
+.init_array     0x08002f80        0x4
+                0x08002f80                        . = ALIGN (0x4)
+                0x08002f80                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08002750        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08002754                        PROVIDE (__init_array_end = .)
-                0x08002754                        . = ALIGN (0x4)
+ .init_array    0x08002f80        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x08002f84                        PROVIDE (__init_array_end = .)
+                0x08002f84                        . = ALIGN (0x4)
 
-.fini_array     0x08002754        0x4
-                0x08002754                        . = ALIGN (0x4)
+.fini_array     0x08002f84        0x4
+                0x08002f84                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08002754        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x08002f84        0x4 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x08002758                        . = ALIGN (0x4)
-                0x08002758                        _sidata = LOADADDR (.data)
+                0x08002f88                        . = ALIGN (0x4)
+                0x08002f88                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08002758        0x0
- .rel.iplt      0x08002758        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x08002f88        0x0
+ .rel.iplt      0x08002f88        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.data           0x20000000        0xc load address 0x08002758
+.data           0x20000000        0xc load address 0x08002f88
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3001,10 +2997,10 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
                 0x2000000c                        . = ALIGN (0x4)
  *fill*         0x20000009        0x3 
 
-.igot.plt       0x2000000c        0x0 load address 0x08002764
+.igot.plt       0x2000000c        0x0 load address 0x08002f94
  .igot.plt      0x2000000c        0x0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.tdata          0x2000000c        0x0 load address 0x08002764
+.tdata          0x2000000c        0x0 load address 0x08002f94
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x2000000c                        . = ALIGN (0x4)
                 0x2000000c                        _edata = .
@@ -3021,7 +3017,7 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
                 [!provide]                        PROVIDE (__data_source_end = __tdata_source_end)
                 [!provide]                        PROVIDE (__data_source_size = (__data_source_end - __data_source))
 
-.tbss           0x2000000c        0x0 load address 0x08002764
+.tbss           0x2000000c        0x0 load address 0x08002f94
                 0x2000000c                        _sbss = .
                 0x2000000c                        __bss_start__ = _sbss
  *(.tbss .tbss.*)
@@ -3038,7 +3034,7 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
                 [!provide]                        PROVIDE (__arm32_tls_tcb_offset = MAX (0x8, __tls_align))
                 [!provide]                        PROVIDE (__arm64_tls_tcb_offset = MAX (0x10, __tls_align))
 
-.bss            0x2000000c       0x78 load address 0x08002764
+.bss            0x2000000c       0x78 load address 0x08002f94
  *(.bss)
  .bss           0x2000000c       0x1c G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.bss*)
@@ -3056,7 +3052,7 @@ LOAD G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi
                 [!provide]                        PROVIDE (__bss_size = (__bss_end - __bss_start))
 
 ._user_heap_stack
-                0x20000084      0x604 load address 0x08002764
+                0x20000084      0x604 load address 0x08002f94
                 0x20000088                        . = ALIGN (0x8)
  *fill*         0x20000084        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -3139,7 +3135,7 @@ LOAD linker stubs
  .comment       0x00000043       0x44 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .comment       0x00000043       0x44 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_info     0x00000000     0x5394
+.debug_info     0x00000000     0x5739
  .debug_info    0x00000000      0x222 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_info    0x00000222     0x142d cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_info    0x0000164f      0x704 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -3153,11 +3149,11 @@ LOAD linker stubs
  .debug_info    0x00004426      0x1f1 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_info    0x00004617       0x30 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
  .debug_info    0x00004647      0x661 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_info    0x00004ca8      0x501 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_info    0x000051a9       0xe0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_info    0x00005289      0x10b G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_info    0x00004ca8      0x8a6 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_info    0x0000554e       0xe0 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_info    0x0000562e      0x10b G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_abbrev   0x00000000     0x18c5
+.debug_abbrev   0x00000000     0x190b
  .debug_abbrev  0x00000000      0x13f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_abbrev  0x0000013f      0x27a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_abbrev  0x000003b9      0x201 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -3171,11 +3167,11 @@ LOAD linker stubs
  .debug_abbrev  0x00001267       0xdb CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_abbrev  0x00001342       0x24 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
  .debug_abbrev  0x00001366      0x22e CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_abbrev  0x00001594      0x1ca CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_abbrev  0x0000175e       0x9e G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_abbrev  0x000017fc       0xc9 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_abbrev  0x00001594      0x210 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_abbrev  0x000017a4       0x9e G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_abbrev  0x00001842       0xc9 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_aranges  0x00000000      0x710
+.debug_aranges  0x00000000      0x700
  .debug_aranges
                 0x00000000       0x28 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_aranges
@@ -3203,14 +3199,14 @@ LOAD linker stubs
  .debug_aranges
                 0x000005e8       0x98 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
  .debug_aranges
-                0x00000680       0x50 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+                0x00000680       0x40 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
  .debug_aranges
-                0x000006d0       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x000006c0       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .debug_aranges
-                0x000006f0       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x000006e0       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
 .debug_rnglists
-                0x00000000      0x525
+                0x00000000      0x516
  .debug_rnglists
                 0x00000000       0x1a cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_rnglists
@@ -3238,13 +3234,13 @@ LOAD linker stubs
  .debug_rnglists
                 0x00000453       0x71 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
  .debug_rnglists
-                0x000004c4       0x3b CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+                0x000004c4       0x2c CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
  .debug_rnglists
-                0x000004ff       0x13 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+                0x000004f0       0x13 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
  .debug_rnglists
-                0x00000512       0x13 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+                0x00000503       0x13 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_macro    0x00000000    0x1652d
+.debug_macro    0x00000000    0x164a9
  .debug_macro   0x00000000      0x18e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x0000018e      0xacc cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_macro   0x00000c5a       0x2e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
@@ -3286,17 +3282,16 @@ LOAD linker stubs
  .debug_macro   0x00015362      0x1a0 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_macro   0x00015502      0x1f9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_macro   0x000156fb      0x18e cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_macro   0x00015889      0x1c3 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
- .debug_macro   0x00015a4c       0x70 CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
- .debug_macro   0x00015abc      0x1a2 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
- .debug_macro   0x00015c5e      0x1a2 CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
- .debug_macro   0x00015e00      0x1b5 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x00015fb5       0x6a CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_macro   0x0001601f      0x1ab CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_macro   0x000161ca      0x1bc CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_macro   0x00016386      0x1a7 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_macro   0x00015889      0x1cd CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015a56       0x2e CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+ .debug_macro   0x00015a84      0x1a2 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
+ .debug_macro   0x00015c26      0x1a2 CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
+ .debug_macro   0x00015dc8      0x1bf CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_macro   0x00015f87      0x1b5 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_macro   0x0001613c      0x1bc CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+ .debug_macro   0x000162f8      0x1b1 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
 
-.debug_line     0x00000000     0x8070
+.debug_line     0x00000000     0x7f62
  .debug_line    0x00000000      0x691 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_line    0x00000691     0x1b59 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_line    0x000021ea      0x8c2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -3306,34 +3301,34 @@ LOAD linker stubs
  .debug_line    0x00004bd2      0x6af CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
  .debug_line    0x00005281      0x617 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
  .debug_line    0x00005898      0x66c CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
- .debug_line    0x00005f04      0x6b7 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x000065bb      0x609 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x00006bc4       0x78 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
- .debug_line    0x00006c3c      0x96b CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_line    0x000075a7      0x7e6 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_line    0x00007d8d      0x17e G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_line    0x00007f0b      0x165 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_line    0x00005f04      0x6c0 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x000065c4      0x612 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00006bd6       0x78 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
+ .debug_line    0x00006c4e      0x96b CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+ .debug_line    0x000075b9      0x6c6 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_line    0x00007c7f      0x17e G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_line    0x00007dfd      0x165 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_str      0x00000000    0x7e442
- .debug_str     0x00000000    0x7e442 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
+.debug_str      0x00000000    0x7e0c9
+ .debug_str     0x00000000    0x7e0c9 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
                               0x7c21c (size before relaxing)
- .debug_str     0x0007e442    0x7cb42 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_str     0x0007e442    0x7c94f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_str     0x0007e442    0x7c64b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_str     0x0007e442    0x7c5a2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_str     0x0007e442    0x7c89b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_str     0x0007e442    0x7c85c CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
- .debug_str     0x0007e442    0x7c269 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
- .debug_str     0x0007e442    0x7c67a CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
- .debug_str     0x0007e442    0x7c691 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_str     0x0007e442    0x7c67c CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_str     0x0007e442       0x64 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
- .debug_str     0x0007e442    0x7c463 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_str     0x0007e442    0x7c7e1 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_str     0x0007e442      0x209 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_str     0x0007e442      0x26a G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_str     0x0007e0c9    0x7cb42 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_str     0x0007e0c9    0x7c94f cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x0007e0c9    0x7c64b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x0007e0c9    0x7c5a2 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0007e0c9    0x7c89b cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x0007e0c9    0x7c51c CMakeFiles/OLED_test.dir/Core/Src/main.c.obj
+ .debug_str     0x0007e0c9    0x7c269 CMakeFiles/OLED_test.dir/Core/Src/gpio.c.obj
+ .debug_str     0x0007e0c9    0x7c67a CMakeFiles/OLED_test.dir/Core/Src/spi.c.obj
+ .debug_str     0x0007e0c9    0x7c35c CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x0007e0c9    0x7c347 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x0007e0c9       0x64 CMakeFiles/OLED_test.dir/startup_stm32f103xb.s.obj
+ .debug_str     0x0007e0c9    0x7c463 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
+ .debug_str     0x0007e0c9    0x7c86b CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_str     0x0007e0c9      0x209 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_str     0x0007e0c9      0x26a G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
-.debug_frame    0x00000000     0x19d4
+.debug_frame    0x00000000     0x1984
  .debug_frame   0x00000000       0x58 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj
  .debug_frame   0x00000058      0x824 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .debug_frame   0x0000087c      0x334 cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
@@ -3346,12 +3341,12 @@ LOAD linker stubs
  .debug_frame   0x00001450      0x104 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_frame   0x00001554       0x38 CMakeFiles/OLED_test.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_frame   0x0000158c      0x250 CMakeFiles/OLED_test.dir/Core/Src/OLED.c.obj
- .debug_frame   0x000017dc      0x104 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
- .debug_frame   0x000018e0       0x4c G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x0000192c       0x38 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
- .debug_frame   0x00001964       0x24 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x00001988       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
- .debug_frame   0x000019a8       0x2c G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
+ .debug_frame   0x000017dc       0xb4 CMakeFiles/OLED_test.dir/Core/Src/TLE5012B.c.obj
+ .debug_frame   0x00001890       0x4c G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x000018dc       0x38 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_muldivsf3.o)
+ .debug_frame   0x00001914       0x24 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00001938       0x20 G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-memset.o)
+ .debug_frame   0x00001958       0x2c G:/app/STM32CubeCLT_1.19.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg_nano.a(libc_a-init.o)
 
 .debug_line_str
                 0x00000000       0x48
