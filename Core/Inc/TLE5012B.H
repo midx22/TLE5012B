@@ -21,7 +21,8 @@
 void TLE5012B_Init(void);
 uint16_t TLE5012B_ReadRegister(uint16_t reg_addr);
 float TLE5012B_ReadAngle(void);
-uint16_t TLE5012B_ReadSpeed(void);
+int16_t TLE5012B_ReadSpeed(void);
+
 uint16_t TLE5012B_ReadStatus(void);
 
 #endif /* __TLE5012B_H */

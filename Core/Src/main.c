@@ -100,6 +100,8 @@ int main(void)
   float angle = 0.0f;
   float last_angle = 0.0f;
   float angle_diff = 0.0f;
+  uint16_t status;
+  int16_t speed = 0;
 
   
   // 显示启动信息
@@ -112,15 +114,18 @@ int main(void)
     
     // 读取TLE5012B角度数据
     angle = TLE5012B_ReadAngle();
-    
-
-    // 清空OLED显示
-    
-    
+    speed = TLE5012B_ReadSpeed();
     // 第2行：当前角度值 (整数部分)
     OLED_ShowString(2, 1, "Angle:");
-    OLED_ShowNum(2, 8, (uint32_t)angle, 3);
-    
+    OLED_ShowNum(2, 8, (int32_t)angle, 3);
+
+
+    if (speed >= 0) {
+            OLED_ShowNum(4, 5, speed, 5);
+        } else {
+            OLED_ShowNum(4, 6, -speed, 4);
+        }
+
     // 第3行：角度小数部分
 
 

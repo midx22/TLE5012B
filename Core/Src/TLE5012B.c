@@ -42,8 +42,8 @@ uint16_t TLE5012B_ReadRegister(uint16_t reg_addr)
     HAL_StatusTypeDef status;
     
     /* 准备要发送的命令（寄存器地址） */
-    tx_cmd[0] = 0x80;    /* 高字节 */
-    tx_cmd[1] = 0x21;           /* 低字节 */
+    tx_cmd[0] = (reg_addr >> 8) & 0xFF;    /* 高字节 */
+    tx_cmd[1] = reg_addr & 0xFF; 
     
     /* 拉低CS开始通信 */
     TLE5012B_CS_LOW();
@@ -52,14 +52,14 @@ uint16_t TLE5012B_ReadRegister(uint16_t reg_addr)
     HAL_Delay(1);
     
     /* 步骤1: 使用硬件SPI发送命令 (2字节) */
-    status = HAL_SPI_Transmit(&hspi1, tx_cmd, 2, HAL_MAX_DELAY);
+    HAL_SPI_Transmit(&hspi1, tx_cmd, 2, HAL_MAX_DELAY);
 
     
     /* 延时，确保从机有时间准备好数据 */
     for(volatile int i = 0; i < 100; i++);
     
     /* 步骤2: 使用硬件SPI接收数据 (2字节) */
-    status = HAL_SPI_Receive(&hspi1, rx_data, 2, HAL_MAX_DELAY);
+    HAL_SPI_Receive(&hspi1, rx_data, 2, HAL_MAX_DELAY);
 
     
     /* 拉高CS结束通信 */
@@ -101,9 +101,27 @@ float TLE5012B_ReadAngle(void)
  * @param  无
  * @retval 转速值（原始数据）
  */
-uint16_t TLE5012B_ReadSpeed(void)
-{
-    return TLE5012B_ReadRegister(TLE5012B_READ_SPEED_VALUE);
+int16_t TLE5012B_ReadSpeed(void)
+{   
+        uint16_t raw_angle;
+
+        raw_angle = TLE5012B_ReadRegister(TLE5012B_READ_SPEED_VALUE);
+        
+
+        raw_angle = raw_angle & 0x7FFF;
+        uint16_t sign = raw_angle & 0x4000;
+        if (sign == 0x4000) { // 负数
+           raw_angle=raw_angle|0x8000;
+        }
+
+        int16_t speed = (int16_t)raw_angle;
+        speed = speed * 1000;
+        float tupd = 2.0 * 42.7 / 1000;
+        float speed_v  = (float)(speed * 2 * 3.14) / 0x7fff;   //rad/s
+        speed = speed_v * tupd * 60 / (2 * 3.14);
+
+        return speed;
+
 }
 
 /**
