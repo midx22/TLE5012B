@@ -93,7 +93,6 @@ int main(void)
   OLED_Init();         // 初始化OLED
   OLED_Clear();        // 清空显示
   TLE5012B_Init();     // 初始化TLE5012B传感器
-  OLED_ShowString(1, 1, "TLE5012B Test"); // 显示标题
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -101,10 +100,7 @@ int main(void)
   float angle = 0.0f;
   float last_angle = 0.0f;
   float angle_diff = 0.0f;
-  uint16_t raw_data = 0;
-  uint32_t test_count = 0;
-  uint32_t error_count = 0;
-  char str_buf[20];
+
   
   // 显示启动信息
   
@@ -119,7 +115,6 @@ int main(void)
     
 
     // 清空OLED显示
-    OLED_Clear();
     
     
     // 第2行：当前角度值 (整数部分)
@@ -135,7 +130,6 @@ int main(void)
     
     // 调试信息：如果有错误，显示错误计数
     // 延时更新
-    HAL_Delay(200);  // 200ms更新一次，足够快的刷新率
     
   }
   /* USER CODE END 3 */
@@ -184,28 +178,6 @@ void SystemClock_Config(void)
 
 
 /* USER CODE END 4 */
-
-/**
-  * @brief  Period elapsed callback in non blocking mode
-  * @note   This function is called  when TIM4 interrupt took place, inside
-  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
-  * a global variable "uwTick" used as application time base.
-  * @param  htim : TIM handle
-  * @retval None
-  */
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
-{
-  /* USER CODE BEGIN Callback 0 */
-
-  /* USER CODE END Callback 0 */
-  if (htim->Instance == TIM4)
-  {
-    HAL_IncTick();
-  }
-  /* USER CODE BEGIN Callback 1 */
-
-  /* USER CODE END Callback 1 */
-}
 
 /**
   * @brief  This function is executed in case of error occurrence.
